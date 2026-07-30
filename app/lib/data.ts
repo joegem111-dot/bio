@@ -25,7 +25,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "Mini Shop DB",
-    description: "Интернет магазин с оплатой, авторизацией и многим др.",
+    description: "Интернет-магазин с оплатой, авторизацией и многим другим",
     url: "https://github.com/doaks1638-netizen/MINI-SHOP-DB",
     tags: ["Python", "PostgreSQL", "FastAPI", "SQLAlchemy", "Docker", "Nginx"],
   },
