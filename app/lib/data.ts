@@ -25,17 +25,16 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "Mini Shop DB",
-    description:
-      "Реляционная БД интернет-магазина на PostgreSQL — моделирование, индексы, сложные запросы, окна и CTE.",
+    description: "Интернет магазин с оплатой",
     url: "https://github.com/doaks1638-netizen/MINI-SHOP-DB",
-    tags: ["PostgreSQL", "SQL", "Database Design"],
+    tags: ["Python", "PostgreSQL", "FastAPI", "SQLAlchemy", "Docker", "Nginx"],
   },
   {
     title: "Aegis",
     description:
       "Backend-приложение на FastAPI — аутентификация, авторизация, REST API, Redis, Docker.",
     url: "https://github.com/doaks1638-netizen/Aegis",
-    tags: ["FastAPI", "Python", "Redis", "Docker"],
+    tags: ["Python", "FastAPI", "Redis", "Docker", "TOML configuration"],
   },
 ];
 
